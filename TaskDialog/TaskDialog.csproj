@@ -19,10 +19,6 @@
     <DocumentationFile>bin\Release\TaskDialog.xml</DocumentationFile>
   </PropertyGroup>-->
   <ItemGroup>
-    <Reference Include="System.Runtime.Remoting" />
-    <Reference Include="Microsoft.CSharp" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resources\shield-16.png" />
   </ItemGroup>
   <ItemGroup>
