@@ -19,7 +19,6 @@
     <AssemblyOriginatorKeyFile>TaskDialogKeyPair.snk</AssemblyOriginatorKeyFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>FrankeCsTools.TaskDialog</PackageId>
-    <PackageLicenseExpression>The Code Project Open License (CPOL) 1.02</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/FrankeCoffee/WPF-Task-Dialog</PackageProjectUrl>
     <RepositoryUrl>https://github.com/FrankeCoffee/WPF-Task-Dialog</RepositoryUrl>
     <GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
@@ -40,5 +39,8 @@
   <ItemGroup Label="Page items now included by globbing that were not in the original project file">
     <Page Remove="DesignData\DesignerTaskDialogViewModel.xaml" />
     <Page Remove="DesignData\DesignerCommandLink.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Resources.Extensions" Version="10.0.9" />
   </ItemGroup>
 </Project>
