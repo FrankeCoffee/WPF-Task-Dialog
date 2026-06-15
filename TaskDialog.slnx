@@ -2,7 +2,7 @@
   <Folder Name="/Solution Items/">
     <File Path=".github/workflows/build.yml" />
     <File Path="license.txt" />
-    <File Path="readme.markdown" />
+    <File Path="readme.md" />
   </Folder>
   <Project Path="TaskDialog/TaskDialog.csproj" />
   <Project Path="WPFTest/WPFTest.csproj" />

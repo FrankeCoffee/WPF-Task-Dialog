@@ -1,4 +1,18 @@
-# WPF Task Dialog Wrapper #
+# WPF Task Dialog Wrapper
+
+> This is a fork of [WPF-Task-Dialog][7] by [Yadyn](http://yadyn.blogspot.com/) (Sean A. Hanley).
+
+## Changes of this fork
+
+- Assembly signed with strong name
+- Added support for .NET Framework 4.8 and .NET Framework 4.8.1
+- Added support for .NET 10.0
+- Project upgraded to Visual Studio 2026
+- No functional changes or improvements.
+
+The content below is the original readme from the original project.
+
+---
 
 It is a drop-in assembly that lets you call up Task Dialogs in your WPF app.
 Uses the native [TaskDialogIndirect][1] API calls when available (Vista/7) and
@@ -6,7 +20,7 @@ falls back to an emulated WPF dialog when not (XP and earlier).
 
 Now [available via NuGet][6]! Search for "taskdialog" and give it a whirl!
 
-## Background ##
+## Background
 
 I've made very good use of Hedley Muscroft's [WinForms emulator and wrapper][2]
 for TaskDialogs in the past. In that same spirit, I've taken part of his hard
@@ -22,7 +36,7 @@ Hedley's work is great and I've used it plenty of times, but I wanted something
 very similar that worked for WPF apps. I also thought I might take the time to
 try to improve on it, mostly thanks to the power of WPF and .NET 4.0.
 
-## Code ##
+## Code
 
 Add the reference to your WPF project. You'll find all of the classes under the
 TaskDialogInterop namespace. Use the TaskDialog class's static methods to
@@ -86,3 +100,4 @@ You can read more as well as see screenshots [here][4].
 [4]: http://www.codeproject.com/KB/WPF/WPFTaskDialogEmulator.aspx
 [5]: http://www.codeproject.com/info/cpol10.aspx
 [6]: https://nuget.org/packages/WPFTaskDialog
+[7]: https://github.com/yadyn/WPF-Task-Dialog

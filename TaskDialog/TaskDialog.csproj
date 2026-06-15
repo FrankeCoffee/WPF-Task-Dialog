@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
-    <AssemblyVersion>1.8.0.0</AssemblyVersion>
-    <FileVersion>1.8.0.0</FileVersion>
-    <Version>1.8.0</Version>
+    <AssemblyVersion>1.8.1.0</AssemblyVersion>
+    <FileVersion>1.8.1.0</FileVersion>
+    <Version>1.8.1</Version>
     <TargetFrameworks>net48;net481;net10.0-windows</TargetFrameworks>
     <OutputType>Library</OutputType>
     <RootNamespace>TaskDialogInterop</RootNamespace>
@@ -22,6 +22,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>FrankeCsTools.TaskDialog</PackageId>
     <PackageProjectUrl>https://github.com/FrankeCoffee/WPF-Task-Dialog</PackageProjectUrl>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/FrankeCoffee/WPF-Task-Dialog</RepositoryUrl>
     <GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
   </PropertyGroup>
@@ -37,6 +38,7 @@
     <Resource Include="Resources\exparr-up2.bmp" />
     <Resource Include="Resources\exparr-up3.bmp" />
     <Resource Include="Resources\cmdarr3.png" />
+    <Resource Include="..\readme.md" Pack="true" PackagePath="\" />
   </ItemGroup>
   <ItemGroup Label="Page items now included by globbing that were not in the original project file">
     <Page Remove="DesignData\DesignerTaskDialogViewModel.xaml" />
