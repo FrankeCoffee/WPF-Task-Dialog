@@ -83,16 +83,16 @@ chosen/clicked.
 
 You can read more as well as see screenshots [here][4].
 
-## Details ##
+## Details
 
 - Project created in Visual Studio 2010
 - .NET 4.0 Client Profile
 - Uses the native TaskDialogIndirect API when available (Vista/7)
 - Licensed under [The Code Project Open License (CPOL) 1.02][5]
-    - Can be freely redistributed
-    - Can be modified
-    - Can be used in commercial software
-    - No warranty/guarantee
+  - Can be freely redistributed
+  - Can be modified
+  - Can be used in commercial software
+  - No warranty/guarantee
 
 [1]: http://msdn.microsoft.com/en-us/library/bb760544%28v=vs.85%29.aspx
 [2]: http://www.codeproject.com/KB/vista/Vista_TaskDialog_Wrapper.aspx
