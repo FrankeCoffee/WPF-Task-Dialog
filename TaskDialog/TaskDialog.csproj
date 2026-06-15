@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
-    <AssemblyVersion>1.8.1.0</AssemblyVersion>
-    <FileVersion>1.8.1.0</FileVersion>
-    <Version>1.8.1</Version>
+    <AssemblyVersion>1.8.2.0</AssemblyVersion>
+    <FileVersion>1.8.2.0</FileVersion>
+    <Version>1.8.2</Version>
     <TargetFrameworks>net48;net481;net10.0-windows</TargetFrameworks>
     <OutputType>Library</OutputType>
     <RootNamespace>TaskDialogInterop</RootNamespace>
@@ -23,6 +23,7 @@
     <PackageId>FrankeCsTools.TaskDialog</PackageId>
     <PackageProjectUrl>https://github.com/FrankeCoffee/WPF-Task-Dialog</PackageProjectUrl>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <PackageLicenseExpression>CPOL-1.02</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/FrankeCoffee/WPF-Task-Dialog</RepositoryUrl>
     <GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
   </PropertyGroup>
