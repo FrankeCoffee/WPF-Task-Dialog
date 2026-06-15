@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
-    <AssemblyVersion>1.8.3.0</AssemblyVersion>
-    <FileVersion>1.8.3.0</FileVersion>
-    <Version>1.8.3</Version>
+    <AssemblyVersion>1.8.4.0</AssemblyVersion>
+    <FileVersion>1.8.4.0</FileVersion>
+    <Version>1.8.4</Version>
     <TargetFrameworks>net48;net481;net10.0-windows</TargetFrameworks>
     <OutputType>Library</OutputType>
     <RootNamespace>TaskDialogInterop</RootNamespace>
@@ -14,13 +14,13 @@
     <AssemblyTitle>WPF Task Dialog</AssemblyTitle>
     <AssemblyDescription>A TaskDialog wrapper class with fallback emulator (for XP and earlier).</AssemblyDescription>
     <Company>Microsoft</Company>
-    <Product>TaskDialog</Product>
+    <Product>WPF Task Dialog</Product>
     <Copyright>© Sean A. Hanley 2012</Copyright>
     <guid>bb889d00-23dd-4fdf-967d-10cbbbfb086d</guid>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>TaskDialogKeyPair.snk</AssemblyOriginatorKeyFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageId>FrankeCsTools.TaskDialog</PackageId>
+    <PackageId>FrankeCsTools.WPFTaskDialog</PackageId>
     <PackageProjectUrl>https://github.com/FrankeCoffee/WPF-Task-Dialog</PackageProjectUrl>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
     <PackageLicenseFile>license.md</PackageLicenseFile>
