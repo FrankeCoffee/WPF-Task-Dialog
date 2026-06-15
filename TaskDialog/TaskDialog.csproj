@@ -23,7 +23,7 @@
     <PackageId>FrankeCsTools.TaskDialog</PackageId>
     <PackageProjectUrl>https://github.com/FrankeCoffee/WPF-Task-Dialog</PackageProjectUrl>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
-    <PackageLicenseExpression>CPOL-1.02</PackageLicenseExpression>
+    <PackageLicenseFile>license.md</PackageLicenseFile>
     <RepositoryUrl>https://github.com/FrankeCoffee/WPF-Task-Dialog</RepositoryUrl>
     <GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
   </PropertyGroup>
@@ -40,6 +40,7 @@
     <Resource Include="Resources\exparr-up3.bmp" />
     <Resource Include="Resources\cmdarr3.png" />
     <Resource Include="..\readme.md" Pack="true" PackagePath="\" />
+    <Resource Include="..\license.md" Pack="true" PackagePath="\" />
   </ItemGroup>
   <ItemGroup Label="Page items now included by globbing that were not in the original project file">
     <Page Remove="DesignData\DesignerTaskDialogViewModel.xaml" />
