@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="license.txt" />
+    <File Path="readme.markdown" />
+  </Folder>
+  <Project Path="TaskDialog/TaskDialog.csproj" />
+  <Project Path="WPFTest/WPFTest.csproj" />
+</Solution>
