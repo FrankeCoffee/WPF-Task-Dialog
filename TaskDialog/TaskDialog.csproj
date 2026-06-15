@@ -1,30 +1,31 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
+    <AssemblyVersion>1.8.0.0</AssemblyVersion>
+    <FileVersion>1.8.0.0</FileVersion>
     <TargetFrameworks>net48;net481;net10.0-windows</TargetFrameworks>
     <OutputType>Library</OutputType>
     <RootNamespace>TaskDialogInterop</RootNamespace>
-    <ExpressionBlendVersion>4.0.20901.0</ExpressionBlendVersion>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <UseWPF>true</UseWPF>
     <Platforms>AnyCPU</Platforms>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <AssemblyTitle>WPF Task Dialog</AssemblyTitle>
+    <AssemblyDescription>A TaskDialog wrapper class with fallback emulator (for XP and earlier).</AssemblyDescription>
+    <Company>Microsoft</Company>
+    <Product>TaskDialog</Product>
+    <Copyright>© Sean A. Hanley 2012</Copyright>
+    <guid>bb889d00-23dd-4fdf-967d-10cbbbfb086d</guid>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>TaskDialogKeyPair.snk</AssemblyOriginatorKeyFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>FrankeCsTools.TaskDialog</PackageId>
+    <PackageLicenseExpression>The Code Project Open License (CPOL) 1.02</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/FrankeCoffee/WPF-Task-Dialog</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/FrankeCoffee/WPF-Task-Dialog</RepositoryUrl>
   </PropertyGroup>
-  <!--<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <DocumentationFile>bin\Debug\TaskDialog.xml</DocumentationFile>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <DocumentationFile>bin\Release\TaskDialog.xml</DocumentationFile>
-  </PropertyGroup>-->
   <ItemGroup>
     <Resource Include="Resources\shield-16.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resources\shield-32.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resources\cmdarr1.png" />
     <Resource Include="Resources\cmdarr2.png" />
     <Resource Include="Resources\exparr-down1.bmp" />
@@ -33,8 +34,6 @@
     <Resource Include="Resources\exparr-up1.bmp" />
     <Resource Include="Resources\exparr-up2.bmp" />
     <Resource Include="Resources\exparr-up3.bmp" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resources\cmdarr3.png" />
   </ItemGroup>
   <ItemGroup Label="Page items now included by globbing that were not in the original project file">
