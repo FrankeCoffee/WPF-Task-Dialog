@@ -1,5 +1,12 @@
 # WPF Task Dialog Wrapper
 
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/FrankeCoffee/WPF-Task-Dialog/build.yml)
+<!-- [![Release](https://img.shields.io/github/release/FrankeCoffee/WPF-Task-Dialog.svg)](https://github.com/FrankeCoffee/WPF-Task-Dialog/releases/latest) -->
+[![NuGet version (FrankeCsTools.WPFTaskDialog)](https://img.shields.io/nuget/v/FrankeCsTools.WPFTaskDialog.svg)](https://www.nuget.org/packages/FrankeCsTools.WPFTaskDialog/)
+[![NuGet](https://img.shields.io/nuget/dt/FrankeCsTools.WPFTaskDialog.svg)](http://nuget.org/packages/FrankeCsTools.WPFTaskDialog)
+
+![Net48](https://badgen.net/badge/Framework/.Net&nbsp;4.8/blue) ![Net481](https://badgen.net/badge/Framework/.Net&nbsp;4.8.1/blue) ![NetCore10](https://badgen.net/badge/Framework/NetCore&nbsp;10/blue)
+
 > This is a fork of [WPF-Task-Dialog][7] by [Yadyn](http://yadyn.blogspot.com/) (Sean A. Hanley).
 
 ## Changes of this fork
